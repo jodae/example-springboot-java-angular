@@ -1,6 +1,7 @@
 # example-springboot-java-angular
 
-### START ###
+## Getting started
+
 example-springboot-java-angular
 $ mvn clean install
 
