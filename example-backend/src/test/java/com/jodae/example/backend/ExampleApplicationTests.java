@@ -1,4 +1,4 @@
-package com.jodae.example;
+package com.jodae.example.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

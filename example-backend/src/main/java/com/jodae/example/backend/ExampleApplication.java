@@ -1,4 +1,4 @@
-package com.jodae.example;
+package com.jodae.example.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

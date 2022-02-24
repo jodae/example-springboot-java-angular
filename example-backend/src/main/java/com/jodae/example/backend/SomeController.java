@@ -1,4 +1,4 @@
-package com.jodae.example;
+package com.jodae.example.backend;
 
 import java.util.Collections;
 import java.util.Map;
