@@ -2,7 +2,8 @@
 
 ## Description
 
-Simple multi-module project with java and angular + springboot
+Simple multi-module project with java and angular + springboot.
+An endpoint sending an "Hello world!" message is available.
 
 ## Getting started
 
