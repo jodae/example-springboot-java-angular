@@ -5,20 +5,26 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'example';
+  title = 'example-springboot-java-angular';
   message = '';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get('http://localhost:8080/message').pipe(
-      first(),
-      tap(result => console.log('Message received from the server: ', (result as any).message)),
-      map(result => this.message = (result as any).message)
-    ).subscribe();
+    this.http
+      .get('http://localhost:8080/message')
+      .pipe(
+        tap((result) =>
+          console.log(
+            'Message received from the server: ',
+            (result as any).message
+          )
+        ),
+        map((result) => (this.message = (result as any).message))
+      )
+      .subscribe();
   }
-
 }

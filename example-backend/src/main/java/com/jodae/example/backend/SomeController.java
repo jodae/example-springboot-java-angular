@@ -13,7 +13,7 @@ public class SomeController {
 
 	@GetMapping(value = "/message")
 	public Map<String, String> getMessage() {
-		return Collections.singletonMap("message", "Hello world from Spring Boot !");
+		return Collections.singletonMap("message", "Hello world!");
 	}
 
 }
