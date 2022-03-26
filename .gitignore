@@ -1,4 +1,3 @@
-
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse,intellij,visualstudiocode,java,maven,angular
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,intellij,visualstudiocode,java,maven,angular
 
@@ -13,9 +12,6 @@ app/**/*.js.map
 # dependencies
 node_modules/
 bower_components/
-
-#node
-node/
 
 # IDEs and editors
 .idea/
@@ -278,3 +274,10 @@ buildNumber.properties
 # Support for Project snippet scope
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,intellij,visualstudiocode,java,maven,angular
+
+### ADDED
+node/
+.mvn
+mvnw
+mvnw.cmd
+
